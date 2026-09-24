@@ -1,0 +1,64 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "20f81e4c-1277-4c14-b508-d77e017a935a",
+  "label" : "Application Detail",
+  "regions" : [ {
+    "id" : "6b77bbd8-a24a-4ede-a09e-3abf8138c913",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "eduadmissions:applicationDetailsWrapper",
+      "id" : "d5bcb636-7678-4f6b-8567-c720358bd7f2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "89f3e38a-ed0e-4c5a-b078-54fa6ccde22e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "EDUApplicationPortalNeedHelpSection",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "c0cb7e0f-170d-4ae8-aa27-799b4735b53a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "647640f5-6d4d-4700-9364-4472d63bf01f",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "e9ff8157-5618-441b-bb71-87edb9b0163c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f8010acf-ba32-40c0-ac69-087822f452e4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "72a7e532-948a-4023-a571-b676323f97b3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0go"
+}

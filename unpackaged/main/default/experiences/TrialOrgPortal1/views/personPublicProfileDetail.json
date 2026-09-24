@@ -1,0 +1,48 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "376011b4-cdbf-4505-bdbd-c8fccb9b03cb",
+  "label" : "Person Public Profile Detail",
+  "regions" : [ {
+    "id" : "ffef81e6-abbe-4e04-877d-79d8a480ecd3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "edualumni:alumniPersonPublicProfileContainer",
+      "id" : "ada674ff-1280-4b85-8601-a2a839b832eb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "625f236c-2d5b-4548-a88c-6dbc080c3275",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "aa8e4636-b039-472e-b662-d4e16d2e6064",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f70b77ca-a3e7-4e48-a2c8-a240968edc94",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e042cef4-87a1-40dd-8c86-df0bfc01db6c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0gH"
+}

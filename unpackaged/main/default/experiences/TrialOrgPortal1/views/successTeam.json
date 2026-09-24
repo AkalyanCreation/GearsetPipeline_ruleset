@@ -1,0 +1,112 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "349b0f2d-5506-4a3e-8e62-722ecb35c480",
+  "label" : "Success Team",
+  "regions" : [ {
+    "id" : "a35dc87a-166c-43f5-9efa-1f97d0d4489c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 18px;\">My Success Team</span>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "42b4b481-c0d1-4491-ace2-56140c3f2fed",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "6755157a-402e-47a9-ac05-a0e9814688fb",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "ad2a9e12-3a75-4cf6-a638-c36cec8c15ac",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "exposedAttributes" : "{\"AdvisorPageName\":\"Advisor_Profile\"}",
+                "flexcardName" : "EDUStudentSuccessTeamsAssignedToMe"
+              },
+              "fqn" : "runtime_omnistudio:flexcard"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "{!$Label.MultiConstituentPortal.MyTeam}"
+          }, {
+            "UUID" : "982c0f43-f464-4df2-8d23-f7f167457e54",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "exposedAttributes" : "{\"AdvisorPageName\":\"Advisor_Profile\"}",
+                "flexcardName" : "EDUStudentSuccessTeamsAvailableForEveryone"
+              },
+              "fqn" : "runtime_omnistudio:flexcard"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "{!$Label.MultiConstituentPortal.AdditionalSupport}"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "6755157a-402e-47a9-ac05-a0e9814688fb",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "exposedAttributes" : "{\"AdvisorPageName\":\"Advisor_Profile\"}",
+            "flexcardName" : "EDUStudentSuccessTeamsAssignedToMe",
+            "objectApiName" : "{!objectApiName}",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "runtime_omnistudio:flexcard",
+          "id" : "32529fb7-b263-4d56-a5f4-6992c11e0f80",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ad2a9e12-3a75-4cf6-a638-c36cec8c15ac",
+        "regionLabel" : "{!$Label.MultiConstituentPortal.MyTeam}",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "exposedAttributes" : "{\"AdvisorPageName\":\"Advisor_Profile\"}",
+            "flexcardName" : "EDUStudentSuccessTeamsAvailableForEveryone",
+            "objectApiName" : "{!objectApiName}",
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "runtime_omnistudio:flexcard",
+          "id" : "92a07daf-e794-415e-9b39-9a34b395c93f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "982c0f43-f464-4df2-8d23-f7f167457e54",
+        "regionLabel" : "{!$Label.MultiConstituentPortal.AdditionalSupport}",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2a0433a-84ef-4120-934b-14945ff80ca8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "62e74200-d0ea-4f64-9c2c-69f533aa7242",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "success-team"
+}

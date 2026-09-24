@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "46abe929-6d8b-4880-b7ec-7144bc0e5511",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "navigationMenuEditorRefresh" : "Student_Menu"
+      }
+    },
+    "targetId" : "98a75588-9a2a-4d78-a309-2bf36b42a70e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Default_Theme_Navigation_Menu_1_Component_Properties",
+  "id" : "83af7da2-8a0e-4340-9404-5c29558b9c58",
+  "type" : "experienceVariation"
+}

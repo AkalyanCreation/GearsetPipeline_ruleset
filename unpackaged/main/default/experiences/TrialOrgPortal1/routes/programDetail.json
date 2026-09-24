@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "9dc2691b-16eb-4495-b699-a27553ca520e",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Program_Detail__c",
+  "id" : "d045a6df-db37-4b83-b9e8-da306e33c35b",
+  "label" : "Program Detail",
+  "routeType" : "detail-11W",
+  "type" : "route",
+  "urlPrefix" : "program"
+}

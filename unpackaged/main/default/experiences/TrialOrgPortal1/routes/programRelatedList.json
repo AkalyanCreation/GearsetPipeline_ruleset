@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "3e3e6018-1813-464e-85c7-97affeee4e4a",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Program_Related_List__c",
+  "id" : "dad633b8-9510-4ec3-b3d2-f56fc7f6eac1",
+  "label" : "Program Related List",
+  "routeType" : "relatedlist-11W",
+  "type" : "route",
+  "urlPrefix" : "program"
+}

@@ -1,0 +1,36 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0983c70f-b41b-4a96-9686-3669483e75de",
+  "label" : "Support Programs",
+  "regions" : [ {
+    "id" : "95bf869c-97af-492a-bf2b-dfdf0fc48129",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "exposedAttributes" : "{\"AssessmentPageName\": \"Assessment_View\"}",
+        "flexcardName" : "EDUProgramMgmtProgramHome",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "96407c95-95fd-40b8-99be-0b319559ed24",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "7fc236d6-d9d4-4757-899b-c555b6ea73fc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "96ccc71d-7ea9-4fca-a6d1-9db1f39f48a9",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "support-programs"
+}

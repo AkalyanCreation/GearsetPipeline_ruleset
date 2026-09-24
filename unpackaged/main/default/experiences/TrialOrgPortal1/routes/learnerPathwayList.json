@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "f0b15e56-3796-4f51-88af-afc350050edf",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Learner_Pathway_List",
+  "id" : "bcfeee35-9f97-4a1e-880a-28b7c79182e6",
+  "label" : "Learner Pathway List",
+  "routeType" : "list-19a",
+  "type" : "route",
+  "urlPrefix" : "learnerPathway"
+}

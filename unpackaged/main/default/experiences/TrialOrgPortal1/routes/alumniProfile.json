@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "42aa79d4-6503-44dc-abf5-97475e4cbd9e",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Alumni_Profile",
+  "id" : "5f5b5ff7-ad0b-45fe-93dc-9197f2e9db07",
+  "label" : "Alumni Profile",
+  "pageAccess" : "UseParent",
+  "routeType" : "alumni-profile",
+  "type" : "route",
+  "urlPrefix" : "alumni-profile"
+}

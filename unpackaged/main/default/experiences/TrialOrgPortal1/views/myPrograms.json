@@ -1,0 +1,49 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "d70a8369-a1f2-4de9-b4b4-59c8e80fc75a",
+  "label" : "My Programs",
+  "regions" : [ {
+    "id" : "f3cf680e-b0db-4280-870a-f904802dd879",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[]",
+        "flowName" : "EDU_Compare_Learning_Program_Plans"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "cd69e8ad-b6ec-4473-b665-b7d52e2875e6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70def718-b426-4c00-9b31-ff319b5598e0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a0717a29-c837-4e26-8b7e-eb3a70b53175",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "My Programs"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "60c7e167-cae7-44a4-a9f0-abaf92c6b018",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a4a42a91-8143-4515-9e8f-71ab6bcd902c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-my-programs"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "cb489023-fad8-4476-8d7a-e26361b5b74d",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Students__c",
+  "id" : "c820338a-0f25-440f-90e1-0704523751bf",
+  "label" : "Students",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-students",
+  "type" : "route",
+  "urlPrefix" : "students"
+}

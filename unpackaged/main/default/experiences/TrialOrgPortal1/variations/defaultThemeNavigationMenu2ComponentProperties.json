@@ -1,0 +1,15 @@
+{
+  "componentVariants" : [ {
+    "id" : "72c50583-1eef-44bb-bae0-84dff5a493ae",
+    "propertyOverrides" : {
+      "componentAttributes" : {
+        "navigationMenuEditorRefresh" : "Alumni_Menu"
+      }
+    },
+    "targetId" : "98a75588-9a2a-4d78-a309-2bf36b42a70e",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Default_Theme_Navigation_Menu_2_Component_Properties",
+  "id" : "bbbf6563-6098-4118-89dd-860df17d136f",
+  "type" : "experienceVariation"
+}

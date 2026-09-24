@@ -1,0 +1,50 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "aeaca684-3452-445c-9b73-4e26b6644c90",
+  "label" : "Benefit Detail",
+  "regions" : [ {
+    "id" : "b58a2ea7-3797-4d06-89d8-ff17c4122c00",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "MentoringBenefitRecordPage",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "5614c93e-fc5e-41f1-b4f4-2695e72cdcdd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "43e44df0-d764-492c-aaf2-b8bf9e2b173b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c69bc7ac-d9f4-40a4-a4bb-b3ffce4cd7a9",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8aeb2ebb-95d5-4850-9e98-30102273b3a5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "811d0698-219d-4c41-8b96-d39647e9f82d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0ji"
+}

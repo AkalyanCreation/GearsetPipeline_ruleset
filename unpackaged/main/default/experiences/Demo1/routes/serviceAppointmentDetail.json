@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "0900bca3-7d78-42ba-bf89-20d2723ef530",
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "configurationTags" : [ ],
+  "devName" : "Service_Appointment_Detail",
+  "id" : "ff208ab5-7480-41e2-b93c-da2522c61830",
+  "label" : "Service Appointment Detail",
+  "routeType" : "detail-08p",
+  "type" : "route",
+  "urlPrefix" : "appointments"
+}

@@ -1,0 +1,46 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "5e88e993-9123-4bf5-8e6b-c13dcbbc2fb0",
+  "label" : "Learner Pathway List",
+  "regions" : [ {
+    "id" : "bb3773f1-ea3e-4aaf-a650-216bdd5bbf38",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "enableInlineEdit" : true,
+        "filterName" : "{!filterId}",
+        "layout" : "FULL",
+        "pageSize" : 25,
+        "scope" : "{!objectName}",
+        "showActionBar" : true,
+        "showChartsPanel" : true,
+        "showDisplay" : "showall",
+        "showFilterPanel" : true,
+        "showImageIcon" : true,
+        "showManualRefreshButton" : true,
+        "showObjectName" : true,
+        "showPinnedList" : true,
+        "showSearchBar" : true
+      },
+      "componentName" : "forceCommunity:objectHome",
+      "id" : "fbc1f24e-30e8-4361-bfb7-aed5583042f8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "06bb5ed5-9329-4951-9d9d-076927051171",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "56857b2e-cea1-4b8e-8949-4a1c3ef81699",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-19a"
+}

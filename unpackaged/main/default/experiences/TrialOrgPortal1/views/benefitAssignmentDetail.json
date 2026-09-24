@@ -1,0 +1,201 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsTwoCol48Layout",
+  "dataProviders" : [ ],
+  "id" : "44f28b49-62c3-4f48-a222-34d556ec8d2f",
+  "label" : "Benefit Assignment Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "92a1a76e-7f7d-4b49-b898-6ee247e28484",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d1c8f6d6-65ff-4375-b94c-3c1e88202789",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "3d8e8aae-e92c-4a62-85f1-61a1eb5ab995",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "3e30aae1-2b55-48ae-87fa-9d75ba4a1576",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "Disbursements"
+          }, {
+            "UUID" : "4afdc95d-71bd-498a-809d-cdde536ebce9",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Details"
+          }, {
+            "UUID" : "a2cde034-3572-4de2-823a-216135e03124",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Interaction Summaries"
+          }, {
+            "UUID" : "ade86358-290b-4550-b774-79d56850e268",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "9300c",
+            "tabName" : "Action Plans"
+          } ],
+          "useOverflowMenu" : true
+        }
+      },
+      "componentName" : "forceCommunity:tabLayout",
+      "id" : "3d8e8aae-e92c-4a62-85f1-61a1eb5ab995",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "",
+            "parentRecordId" : "{!recordId}",
+            "relatedListName" : "BenefitDisbursementBenefitAssignments",
+            "showBreadCrumbs" : true,
+            "showCustomTitle" : false,
+            "showManualRefreshButton" : true,
+            "showRowNumbers" : true
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "e92d20b1-f55c-450c-8181-c49e3e6b5f13",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "3e30aae1-2b55-48ae-87fa-9d75ba4a1576",
+        "regionLabel" : "Disbursements",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "72811042-c42b-45f5-b81a-cde3e62dce1a",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "4afdc95d-71bd-498a-809d-cdde536ebce9",
+        "regionLabel" : "Details",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "",
+            "parentRecordId" : "{!recordId}",
+            "relatedListName" : "Deals",
+            "showBreadCrumbs" : true,
+            "showCustomTitle" : false,
+            "showManualRefreshButton" : true,
+            "showRowNumbers" : true
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "569f948b-49b8-48d3-a2dd-1fa5603dfede",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a2cde034-3572-4de2-823a-216135e03124",
+        "regionLabel" : "Interaction Summaries",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "",
+            "parentRecordId" : "{!recordId}",
+            "relatedListName" : "ActionPlans",
+            "showBreadCrumbs" : true,
+            "showCustomTitle" : false,
+            "showManualRefreshButton" : true,
+            "showRowNumbers" : true
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "7c236026-c67f-4040-af46-de24c2a5c8fd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "ade86358-290b-4550-b774-79d56850e268",
+        "regionLabel" : "Action Plans",
+        "regionName" : "9300c",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c611cd1b-54b1-4313-81e3-ac5d89224604",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "52eafee1-e3d4-4f83-b6d7-02e834c6ee71",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e7126afd-8673-406b-90b1-bf27f83405ef",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2dfe9d93-32da-46d5-a0c4-d585568bfbcb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "MentoringParticipantCard",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "a02a55e4-4d4f-4a68-b9a9-f38ebf8a22a8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flexcardName" : "ClonedEDUAdmissions",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "b8aebf04-5b06-4b02-801a-e0905c9c8674",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e95bfe51-1603-45d8-8598-597c011055d6",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0nD"
+}

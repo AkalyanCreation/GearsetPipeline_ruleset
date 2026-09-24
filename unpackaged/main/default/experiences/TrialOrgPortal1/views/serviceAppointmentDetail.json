@@ -1,0 +1,66 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9d39d9c7-f6db-4122-8827-b95a11bc57b2",
+  "label" : "Service Appointment Detail",
+  "regions" : [ {
+    "id" : "95b9e04a-d186-42cb-b0a2-8fe6950792d2",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "981f2c30-456a-483b-83f4-3eb7388e05a2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "showLegacyActivityComposer" : false,
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "69770be1-8438-468e-9740-c46539f1433f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9e666d62-eafb-4be2-bd31-d8d0ca57ce3f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "97cb4708-55bb-4f9c-ad58-d7158d61a5b8",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "0f8f1de8-2226-42e6-9377-3ec39aa0f311",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2e34d06c-5cb6-40aa-8428-8cf2738909b0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-08p"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "1454debe-7ffb-4eb1-8c9d-bc526b6bd27a",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "EDU_Waitlist_Checkin__c",
+  "id" : "640ddfc8-2f3b-43f4-88d2-bd0c26bd129d",
+  "label" : "EDU Waitlist Checkin",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-edu-waitlist-checkin",
+  "type" : "route",
+  "urlPrefix" : "edu-waitlist-checkin"
+}

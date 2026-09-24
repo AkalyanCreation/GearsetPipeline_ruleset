@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "aef1cee6-6ee7-4734-b1f3-0ce7b8a7e3e6",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Learning_Program_Plan_List",
+  "id" : "f6c858db-7861-41c3-8f35-ed47e99489f8",
+  "label" : "Learning Program Plan List",
+  "routeType" : "list-0uF",
+  "type" : "route",
+  "urlPrefix" : "learningProgramPlan"
+}

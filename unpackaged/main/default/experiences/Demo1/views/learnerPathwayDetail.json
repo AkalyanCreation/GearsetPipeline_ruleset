@@ -1,0 +1,57 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9b70b5ec-c234-400a-99b6-a038efa5e90d",
+  "label" : "Learner Pathway Detail",
+  "regions" : [ {
+    "id" : "a22d38e6-6ded-4de9-ac30-41b0e1350c23",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "c7a2f09e-9602-4969-b2f4-d3b264787deb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "edulearning:learnerPathwayBuilder",
+      "id" : "c013d6b1-5507-4be0-a83c-9cde5322e9e0",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "165b3237-c23d-40f3-ab9f-5f548bc70639",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2df90e70-28fe-4a56-9216-030186d8b698",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5e72042e-5017-4778-adcb-16d2c660cbb8",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "53b1ea46-7ac9-494f-9c9b-4db656b4f0cc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-19a"
+}

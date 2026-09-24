@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "2d1af5c7-7254-41b8-bc1f-158e1db4fd98",
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "configurationTags" : [ ],
+  "devName" : "Educational_Info_Request_Detail",
+  "id" : "27a3207b-0c55-4db5-a616-573013c74864",
+  "label" : "Educational Info Request Detail",
+  "routeType" : "detail-0yU",
+  "type" : "route",
+  "urlPrefix" : "eduInfoRequests"
+}

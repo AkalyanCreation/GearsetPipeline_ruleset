@@ -1,0 +1,66 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "034cf2d9-adba-445a-a2eb-4d280e8aa7f7",
+  "label" : "Educational Info Request Detail",
+  "regions" : [ {
+    "id" : "879296d2-45da-4dd8-ad8a-74c7183ffbef",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:recordHeadline",
+      "id" : "2a6bd37f-49ca-44f0-94b8-8114eb8a0002",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "detailsTabLabel" : "Details",
+        "discussionsTabLabel" : "Feed",
+        "recordId" : "{!recordId}",
+        "relatedTabLabel" : "Related",
+        "showLegacyActivityComposer" : false,
+        "tab1Type" : "details",
+        "tab2Type" : "related",
+        "tab3Type" : "chatter",
+        "tab4Type" : "none",
+        "timelineTabLabel" : "Activity"
+      },
+      "componentName" : "forceCommunity:recordHomeTabs",
+      "id" : "27daf603-4e52-401d-835c-858c1f11280c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b62fcbd6-3d78-412c-9591-e40d923c6bcb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "4a9894b9-b5b9-45b0-8142-ada22b6a3c84",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c0cdc710-70a3-49e2-8ae6-ca08804d85e6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "072339f0-a539-44af-8ae8-7ef88998f757",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0yU"
+}

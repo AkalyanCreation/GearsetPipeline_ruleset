@@ -1,0 +1,39 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "67e96c94-afb3-4e9c-8e1a-cef95c8bad0f",
+  "label" : "Learner Pathway Related List",
+  "regions" : [ {
+    "id" : "a2d11b44-b855-4e73-9e16-7230b740b882",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "037509a2-53b8-44bf-9e1a-eeaa99b6e209",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3140b866-ece6-4e58-8fb5-090cc7c2cf0b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b3b042e0-8c80-42da-826f-bf0b1ff82926",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-19a"
+}

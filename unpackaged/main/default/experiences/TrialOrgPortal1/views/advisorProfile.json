@@ -1,0 +1,36 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "857419b2-d33a-4718-896c-347d05ea0683",
+  "label" : "Advisor Profile",
+  "regions" : [ {
+    "id" : "71886af1-ccc9-4048-8261-a2444bc9668f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "exposedAttributes" : "{\"StaffId\": \"{!StaffId}\"}",
+        "flexcardName" : "EDUStudentAdvisorProfile",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "f69563ec-4385-4568-bfda-982251cb3987",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9146556-5d59-4795-9a28-68380b323a6c",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "52b8c9f3-7a42-4c66-8ae8-557fa5f10005",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "advisor-profile"
+}

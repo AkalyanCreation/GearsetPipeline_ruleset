@@ -1,0 +1,69 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "13d6f840-88d4-46cb-8bed-d0323591b55f",
+  "label" : "Application Detail",
+  "regions" : [ {
+    "id" : "5e121bec-1731-4915-9d36-c020d4d87140",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowApplicantsToCancelApplication" : false,
+        "allowApplicantsToWithdrawApplication" : false,
+        "allowApplicationSubmission" : false,
+        "enableViewAndEdit" : false,
+        "recordId" : "{!recordId}",
+        "requireApplicantSignature" : false
+      },
+      "componentName" : "eduadmissions:applicationDetailsWrapper",
+      "id" : "053a3599-4519-434d-ab25-7ee4dcd3d8d9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "688c58ae-5386-43ac-9547-f3ecef072a67",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "EDUApplicationPortalNeedHelpSection",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "5e6df85c-6632-4b72-9ee9-61d56ff11fdd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3f6fc62-ca72-48b3-98f5-1478acd6c7f3",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "f5cd107b-b7b6-4eda-9ea6-d010c07a58c9",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bd6e1fc3-4eaf-4e71-abbb-bc22f2073c2f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84b227ab-225b-481c-a3b7-fdc3849fa974",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0go"
+}

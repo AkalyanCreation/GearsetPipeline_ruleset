@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "232b36fe-42da-4a5f-9eac-240caf811af7",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Assessment_View",
+  "id" : "a38156fd-12d9-46ed-8d35-66331a1d1472",
+  "label" : "Assessment View",
+  "pageAccess" : "UseParent",
+  "routeType" : "assessment-view",
+  "type" : "route",
+  "urlPrefix" : "assessment-view"
+}

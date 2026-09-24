@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ce7afe43-bd89-417f-acee-7a169f88950b",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Provider_Offering_Detail__c",
+  "id" : "84c4a6ce-e4c8-41a1-9f9b-f93e4d84e7f8",
+  "label" : "Provider Offering Detail",
+  "routeType" : "detail-0Wq",
+  "type" : "route",
+  "urlPrefix" : "provideroffering"
+}

@@ -1,0 +1,49 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "b3d53efc-88ee-4e8f-bbae-19a3a687933b",
+  "label" : "Individual Application Task Detail",
+  "regions" : [ {
+    "id" : "58c2c9b2-6278-42a4-8f54-4626a6ee1e14",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}",
+        "renderMethodType" : "OmniScript"
+      },
+      "componentName" : "eduadmissions:omniViewer",
+      "id" : "53dbc6c5-d752-43b4-b749-ab3395e55e1c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "32930d81-fc72-42fd-9c47-516cc981babe",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d7fdcb46-3855-4ebe-a890-9de4c862d03a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bb25fc9e-b43a-41b3-b2b9-6f362d430a38",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8d118b92-bc27-4b7f-8f8a-ce079ac33913",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-13a"
+}

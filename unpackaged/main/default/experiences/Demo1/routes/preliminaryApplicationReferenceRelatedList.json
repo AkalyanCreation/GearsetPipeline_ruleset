@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ad17f385-57f5-4573-9d0c-92b0e3a4be73",
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "configurationTags" : [ ],
+  "devName" : "Preliminary_Application_Reference_Relate",
+  "id" : "3a133f01-0eab-4a82-a866-09a018554f37",
+  "label" : "Preliminary Application Reference Related List",
+  "routeType" : "relatedlist-0go",
+  "type" : "route",
+  "urlPrefix" : "application"
+}

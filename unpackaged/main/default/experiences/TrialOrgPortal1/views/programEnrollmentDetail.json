@@ -1,0 +1,50 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a3475e72-c5a5-4e05-9908-74fda098d8d8",
+  "label" : "Program Enrollment Detail",
+  "regions" : [ {
+    "id" : "865da455-a00d-4593-b6aa-7fa3f559c7fb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "EDUProgramMgmtPgmEnrlRecordPage",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "56bd7f9b-32eb-4009-b455-f038895cfaa6",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4a362814-6a97-45ce-b423-0fdb085b1906",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3d828606-5369-46e3-bbf0-2866ccc26a31",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "23c225e5-4ea2-4fc2-b6bf-b654a1502b46",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4f54ee9c-85a8-46f7-8447-fc7e8b0268f0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-11X"
+}

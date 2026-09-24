@@ -1,0 +1,51 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "ce7afe43-bd89-417f-acee-7a169f88950b",
+  "label" : "Provider Offering Detail",
+  "regions" : [ {
+    "id" : "7b5cc5f0-8cab-46e5-9845-dae4d9c9eb68",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "exposedAttributes" : "{\"AssessmentPageName\":\"AssessmentView__c\"}",
+        "flexcardName" : "MentoringParticipantCard",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "f5a07005-76d3-4100-9e90-335b2bfe5337",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "42264d77-0286-4ab5-b2c2-e7031152fa25",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b6a02a93-f343-41de-a437-ab04e56d0096",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b3dafd5b-4a34-4516-8555-9bae1a894ab0",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "28e881ca-9a72-4a62-88d6-f40eaf9cec5a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0Wq"
+}

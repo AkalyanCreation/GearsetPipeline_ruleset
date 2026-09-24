@@ -1,0 +1,39 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9d2178be-48cd-4337-942d-1464e425d719",
+  "label" : "Service Appointment Related List",
+  "regions" : [ {
+    "id" : "f9042c63-069a-4591-b5eb-2c4048c4a476",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "50cbae48-0fc3-4152-8420-60916c4a0c58",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bc3a4600-2eaa-4d0d-894e-8b025da3f5c7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b30e24c5-d8ea-46b4-b423-523a0471e3e0",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-08p"
+}

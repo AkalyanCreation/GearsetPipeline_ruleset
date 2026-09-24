@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexEmailNotifications xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apexEmailNotification>
+        <email>00Df600000TxQXFEA3+01c5b03e-6e82-4e45-bbe3-e9f34dc483f9@us.platform.gearset.com</email>
+    </apexEmailNotification>
+</ApexEmailNotifications>

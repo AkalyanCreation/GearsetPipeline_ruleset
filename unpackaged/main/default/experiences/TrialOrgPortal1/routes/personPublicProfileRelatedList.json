@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "c9be0b0a-b241-4747-9bad-4124da77c248",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Person_Public_Profile_Related_List",
+  "id" : "e3b2d051-c6fa-4256-9d5c-a17295424542",
+  "label" : "Person Public Profile Related List",
+  "routeType" : "relatedlist-0gH",
+  "type" : "route",
+  "urlPrefix" : "personPublicProfile"
+}

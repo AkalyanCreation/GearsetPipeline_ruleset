@@ -1,0 +1,49 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "2de5e170-c421-460c-8fd8-2ffeb6ab894c",
+  "label" : "Learner Progress",
+  "regions" : [ {
+    "id" : "ee81b853-8c4d-4d26-b4ec-52266fe4cc11",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "objectApiName" : "User",
+        "recordId" : "005Ws000001cUhSIAU"
+      },
+      "componentName" : "edulearning:learnerProgress",
+      "id" : "44381a6c-a1c4-4755-963a-1c59b6e6085c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "35e5a10d-eb6a-4930-a6a1-eb307b7f8000",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "262b6e2c-f38b-4cfd-9e64-382db4c0cbd9",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Learner Progress"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f9b107ad-1c49-4653-a869-18e069c6edc3",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a801afde-20ac-49af-9f8c-de636d6cc4eb",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-learner-progress"
+}

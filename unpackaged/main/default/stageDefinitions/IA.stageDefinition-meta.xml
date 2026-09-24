@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StageDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <masterLabel>IA</masterLabel>
+    <referenceObject>IndividualApplication</referenceObject>
+    <referenceObjectField>Status</referenceObjectField>
+    <referenceObjectRecordType>IndividualApplication.Admissions</referenceObjectRecordType>
+    <stageTransition>
+        <fromStageValue>Processing</fromStageValue>
+        <toStageValue>In Review</toStageValue>
+    </stageTransition>
+    <stageTransition>
+        <fromStageValue>In Review</fromStageValue>
+        <toStageValue>Processing</toStageValue>
+    </stageTransition>
+    <stageValue>
+        <value>Processing</value>
+    </stageValue>
+    <stageValue>
+        <stepGroup>
+            <name>In Review</name>
+            <step>
+                <apiName>Milestone</apiName>
+                <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+                <name>Milestone</name>
+                <stepType>Milestone</stepType>
+            </step>
+        </stepGroup>
+        <value>In Review</value>
+    </stageValue>
+    <stageValue>
+        <stepGroup>
+            <name>Ready For Decision</name>
+            <step>
+                <apiName>Manual_Task</apiName>
+                <assignedToUser>akalyan.balachandar_6nry9yshbvjrwt8xcdo@creation-tec.com</assignedToUser>
+                <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+                <name>Manual Task</name>
+                <stepType>ManualTask</stepType>
+            </step>
+        </stepGroup>
+        <value>Ready For Decision</value>
+    </stageValue>
+</StageDefinition>

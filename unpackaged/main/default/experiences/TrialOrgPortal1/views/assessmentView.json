@@ -1,0 +1,39 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "232b36fe-42da-4a5f-9eac-240caf811af7",
+  "label" : "Assessment View",
+  "regions" : [ {
+    "id" : "75d6edf6-fc33-426d-8d97-90ebfa3857ce",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "direction" : "ltr",
+        "display" : "Display OmniScript on page",
+        "inlineVariant" : "brand",
+        "language" : "English",
+        "subType" : "AssessmentIntake",
+        "theme" : "lightning",
+        "type" : "ProgramAssessment"
+      },
+      "componentName" : "runtime_omnistudio:omniscriptExperienceCloud",
+      "id" : "16d58cba-9e9f-4941-b7b6-f9723a12a984",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "848177b4-d074-4f11-bf17-2af01a606a95",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "9595b203-b667-4169-a6ae-0ea8b77fde45",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "assessment-view"
+}

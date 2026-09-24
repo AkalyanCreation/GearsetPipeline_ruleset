@@ -1,0 +1,48 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "9a5e2faa-d74e-4fb0-82b4-cdbd6c54e757",
+  "label" : "Action Plan Detail",
+  "regions" : [ {
+    "id" : "0da884da-412a-4b88-b17e-490abe848809",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "edustudentsuccess:actionPlanRecordWrapper",
+      "id" : "536abc18-d82b-4f99-8817-b5a8659f1bbc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "98c1788d-8448-4af1-a555-228b476d94fb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "68fadb76-f71f-4ffe-bfc1-df3b5249d9bf",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5a143d13-3dce-4e69-8d84-eccb8123a1f9",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "4aa81412-3b74-401b-9d55-940fce19cc52",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-07r"
+}

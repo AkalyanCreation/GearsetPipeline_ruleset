@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "2de5e170-c421-460c-8fd8-2ffeb6ab894c",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Learner_Progress__c",
+  "id" : "d1b9c74c-fbe4-49b7-9608-bf7d970479f2",
+  "label" : "Learner Progress",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-learner-progress",
+  "type" : "route",
+  "urlPrefix" : "learner-progress"
+}

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "7adfebfa-6a80-48fd-bb87-e7f9f39f32a8",
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "configurationTags" : [ ],
+  "devName" : "Person_Public_Profile_Detail",
+  "id" : "92a0e16f-349a-4dc4-8d3b-45f7b5b27642",
+  "label" : "Person Public Profile Detail",
+  "routeType" : "detail-0gH",
+  "type" : "route",
+  "urlPrefix" : "personPublicProfile"
+}

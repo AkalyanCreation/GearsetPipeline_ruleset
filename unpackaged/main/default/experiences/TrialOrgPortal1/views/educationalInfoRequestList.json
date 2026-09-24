@@ -1,0 +1,61 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "d28afca3-5367-46af-ac15-240d18c03c05",
+  "label" : "Educational Info Request List",
+  "regions" : [ {
+    "id" : "1bf02b1b-5b5e-4849-8336-f7069997edf3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 18px;\">Requests for Information</span>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "940477fb-a6d9-4ba8-a2ac-7c59d5b9c204",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "exposedAttributes" : "{\"UserId\": \"{!CurrentUser.id}\",\"Limit\": 50000}",
+        "flexcardName" : "ClonedEDUAdmissionsRFIListViewWrapper",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "15272297-7ea5-4dbd-874b-f1d77046370e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fedcba88-3410-4517-9aea-69d293a47016",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "ClonedEDUApplicationPortalNeedHelpSection",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "e738ffc0-41db-426e-88b2-60af93bf7f2f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f714e65d-238e-4d01-baa2-01f492ffcee0",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "17bd2f4d-08cb-4863-83d2-0832f78fce18",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0yU"
+}

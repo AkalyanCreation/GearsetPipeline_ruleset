@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "857419b2-d33a-4718-896c-347d05ea0683",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Advisor_Profile",
+  "id" : "e4dca600-5682-4ec9-a14f-56d0e717423b",
+  "label" : "Advisor Profile",
+  "pageAccess" : "UseParent",
+  "routeType" : "advisor-profile",
+  "type" : "route",
+  "urlPrefix" : "advisor-profile"
+}

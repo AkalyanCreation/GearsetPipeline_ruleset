@@ -1,0 +1,67 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "c5b962b9-3969-469e-bda4-4d8416a964ec",
+  "label" : "Application List",
+  "regions" : [ {
+    "id" : "55c95155-9b57-4b74-a5b7-dd443854e6a3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 18px;\">Applications</span>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "9a174747-c167-49e6-a383-349d6d3060b5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "buttonVariant" : "brand",
+        "maxPrograms" : "5",
+        "mode" : "proxy"
+      },
+      "componentName" : "eduadmissions:admissionsNewApplicationLauncher",
+      "id" : "e94701a0-140a-4f32-be6d-762c25357e6e",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : { },
+      "componentName" : "eduadmissions:admissionsApplicationsListWrapper",
+      "id" : "42f16885-d56c-487a-a4ed-f2d695986e36",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e65b4e20-5187-4799-b0f4-27f5a28a804a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "EDUApplicationPortalNeedHelpSection",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "18f45eba-e6ae-4eb7-9bf3-2759f6f5ffd1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "caba945c-1a31-410a-800a-a83573892d9f",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "6c29e63d-e6c3-4cf5-bb2b-864a8c08406b",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0go"
+}

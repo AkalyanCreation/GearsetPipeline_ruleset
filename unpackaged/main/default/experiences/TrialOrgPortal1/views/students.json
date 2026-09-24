@@ -1,0 +1,75 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "cb489023-fad8-4476-8d7a-e26361b5b74d",
+  "label" : "Students",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p><span style=\"font-size: 14px; color: rgb(8, 7, 7);\">Students</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "54747467-7b53-41ab-9e76-bfc546549886",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "flexcardName" : "EDUAdmissionsNewStudentButton",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "70c0958b-b5e8-4068-a7a5-b72d360b9bb1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "cefd2f84-36cd-41fd-9780-1b4fe429b107",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "EDUAdmissionsMyStudents",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "e325b104-9a5a-41e0-b1be-871deb8f58b3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "189bd4e0-5ca8-4a53-a0ab-469c5c3124cb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "81c044db-428e-4406-9c79-2c3107259625",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "c6e8cd9f-43c0-4e71-b154-ed9c81ff56fb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Students"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4696d248-1c1e-4635-92d6-996c2029a570",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "212566e7-4531-45d1-b2cb-6bac980463f7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-students"
+}

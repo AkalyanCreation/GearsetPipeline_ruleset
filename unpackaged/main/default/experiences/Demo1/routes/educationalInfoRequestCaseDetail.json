@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "ef7f6002-42e8-4326-b371-a65ed692f670",
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "configurationTags" : [ ],
+  "devName" : "Case_Detail",
+  "id" : "8874700d-35bd-46d8-8586-b3ebe15ed1ff",
+  "label" : "Educational Info Request Case Detail",
+  "routeType" : "detail-500",
+  "type" : "route",
+  "urlPrefix" : "case"
+}

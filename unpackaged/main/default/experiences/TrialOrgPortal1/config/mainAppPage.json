@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "fb186fbf-c464-40c3-bb4e-87904d0fcada",
+  "headMarkup" : null,
+  "id" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "Applicant Portal Template",
+  "type" : "appPage"
+}

@@ -1,0 +1,68 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsTwoCol84SidebarFeaturedLayout",
+  "dataProviders" : [ ],
+  "id" : "ea8ef36f-2dca-4a57-a68a-a52e570c62b6",
+  "label" : "Application List",
+  "regions" : [ {
+    "id" : "74f2811d-f1bf-442e-b515-c08c02d490ba",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1>       <span style=\"color: #2D2D2D;font-size: 18px;\">Applications</span>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "51b2ac7c-1c99-4d14-981a-276ccf6b17f1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "buttonVariant" : "brand",
+        "mode" : "self"
+      },
+      "componentName" : "eduadmissions:admissionsNewApplicationLauncher",
+      "id" : "9be263b5-0e83-46a8-9a73-325510644256",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "showWithdrawnCanceledCheckbox" : false
+      },
+      "componentName" : "eduadmissions:admissionsApplicationsListWrapper",
+      "id" : "84884ddd-1350-486c-b403-d0cf705ec088",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dfd93c64-ab73-47bc-bfcf-954a7a7c8675",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flexcardName" : "EDUApplicationPortalNeedHelpSection",
+        "objectApiName" : "{!objectApiName}",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "runtime_omnistudio:flexcard",
+      "id" : "3b415e8c-89be-48af-a6c2-d16036a10ba3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1e35b470-cfeb-4660-a05d-051dc522ed99",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "84504a47-180e-4818-aa43-f6522bb4eed2",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "list-0go"
+}

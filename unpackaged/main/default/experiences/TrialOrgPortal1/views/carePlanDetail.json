@@ -1,0 +1,48 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "206ed6ee-29e1-4051-bae3-1231dd0d0e7d",
+  "label" : "Care Plan Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "edustudentsuccess:carePlanRecordWrapper",
+      "id" : "1c1db574-29df-4a66-921d-5b7dea943221",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "22236352-de2f-4d1b-860b-3da3f70c89ec",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "c1aa5fc5-832d-40bb-bce2-b7f6999850e2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "13dfa302-e558-42be-9a4a-08969e8deddd",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "2b5afbed-de7e-439a-b246-6d66364c26a7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "02363640-8707-4dd6-bceb-e85a396fd546",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-1sp"
+}

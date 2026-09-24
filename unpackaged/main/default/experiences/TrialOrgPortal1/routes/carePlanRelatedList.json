@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "23db7460-ccb6-4046-ad07-912c85a664b8",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Care_Plan_Related_List__c",
+  "id" : "749941aa-1cbf-42a7-a029-c37f4bb23982",
+  "label" : "Care Plan Related List",
+  "routeType" : "relatedlist-1sp",
+  "type" : "route",
+  "urlPrefix" : "careplan"
+}

@@ -1,0 +1,39 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4e97b3d1-8ffa-4ddb-ba2a-45be003400fb",
+  "label" : "Program Enrollment Related List",
+  "regions" : [ {
+    "id" : "8aea2126-31be-4374-a53a-d0e141f72ac1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "f860ce72-562f-41f0-ad42-91c217d23870",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "02794d11-f939-43a1-9153-5e3d3f9e72e6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a1f9b4d2-409f-472a-a90d-eccc137c8c7a",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-11X"
+}

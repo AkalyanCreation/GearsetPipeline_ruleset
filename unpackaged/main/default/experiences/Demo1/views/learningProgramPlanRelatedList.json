@@ -1,0 +1,39 @@
+{
+  "appPageId" : "529fa6ae-d34a-4cb2-bcd5-a6bbe0e5518f",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "de863694-b670-4e99-8c7b-b8cf69fa4a25",
+  "label" : "Learning Program Plan Related List",
+  "regions" : [ {
+    "id" : "38babb8c-f906-46f5-a304-75ae27a4a61b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "647ef38f-0a1c-4116-b098-35da688205dc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "66aa6ebe-3d02-4eb1-8807-e55b954ddf36",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "63cb6ca6-1414-4b86-9ce2-da79bafd9fc5",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-0uF"
+}

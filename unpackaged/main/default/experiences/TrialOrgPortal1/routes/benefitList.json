@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "aa9976a7-ee19-4378-b93e-1df225b3dada",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Benefit_List__c",
+  "id" : "3abc06b0-bf95-40c8-bc02-7451ef0d3d25",
+  "label" : "Benefit List",
+  "routeType" : "list-0ji",
+  "type" : "route",
+  "urlPrefix" : "benefit"
+}

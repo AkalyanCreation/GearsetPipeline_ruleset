@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "5cc2c79e-5e6b-4895-93bd-7f0e99500ba5",
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "configurationTags" : [ ],
+  "devName" : "Benefit_Home_Screen__c",
+  "id" : "e3789408-d0d7-430d-aba3-939b768b6ca3",
+  "label" : "Benefit Home Screen",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-benefit-home-screen",
+  "type" : "route",
+  "urlPrefix" : "benefit-home-screen"
+}

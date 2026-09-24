@@ -1,0 +1,39 @@
+{
+  "appPageId" : "dd5747ff-594f-4073-9301-c22b43210bee",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f9e4b995-53c3-4936-8c9b-786c29f139da",
+  "label" : "Benefit Assignment Related List",
+  "regions" : [ {
+    "id" : "add98b5f-a091-4e3e-9ec6-f2205c723617",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customTitle" : "",
+        "parentRecordId" : "{!recordId}",
+        "relatedListName" : "{!relationshipApiName}",
+        "showBreadCrumbs" : true,
+        "showCustomTitle" : false,
+        "showManualRefreshButton" : true,
+        "showRowNumbers" : true
+      },
+      "componentName" : "forceCommunity:relatedList",
+      "id" : "53409b49-756b-4b42-b403-8ee9a6c5763b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ee748b13-8ba7-4589-a10a-2ea2ad564ff7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2433ee8e-d198-46a2-9e71-b3dc513b3008",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "relatedlist-0nD"
+}
