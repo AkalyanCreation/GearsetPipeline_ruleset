@@ -3,6 +3,7 @@ public class AccountHelper {
 		System.debug('Here');
 		System.debug('Here1');
 
+		System.debug('test');
         return [SELECT Name, Id From Account where Name != 'Test'];
     }
 }
