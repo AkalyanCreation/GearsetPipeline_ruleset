@@ -2,6 +2,8 @@ public class AccountHelper {
     public List<Account> getAccountDetial(){
 		System.debug('Here');
 		System.debug('Here1');
+
+		System.debug('test');
         return [SELECT Name, Id From Account where Name != 'Test'];
     }
 }
